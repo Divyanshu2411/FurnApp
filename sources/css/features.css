@@ -1,0 +1,38 @@
+.best-features-area {
+	position: relative;
+}
+.best-features-area .single-features {
+	display: flex;
+}
+.section-padd4 {
+	padding-top: 200px;
+	padding-bottom: 110px;
+}
+.best-features-area .single-features .features-caption {
+	padding-left: 19px;
+}
+.best-features-area .single-features .features-caption h3 {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.2;
+	margin-bottom: 10px;
+	color: #23182c;
+}
+.best-features-area .features-shpae {
+	position: absolute;
+	left: 30px;
+	top: 50%;
+}
+.features-shpae img {
+	width: 100%;
+	transform: translateY(-50%);
+}
+.best-features-area .features-shpae img {
+	max-width: 80%;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+	.best-features-area .features-shpae img {
+		max-width: 50%;
+		top: 50%;
+	}
+}
