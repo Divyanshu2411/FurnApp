@@ -1,13 +1,13 @@
 # FurnApp
 The IEEE web-o-mania competition code.
-<h1 align="center">Hi 👋, we are &ltDIV&gt, a team of developer from NSUT.</h1>
+<h1 align="center">Hi 👋, we are &ltDIV&gt, a team of developers from NSUT.</h1>
 <h3 align="center">A passionate frontend development team from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=divyanshu2411&label=Profile%20views&color=0e75b6&style=flat" alt="divyanshu2411" /> </p>
 
 - 🔭 We are currently working on [FurnApp](https://github.com/Divyanshu2411/FurnApp)
 
-- 🌱**We used following libraries**
+**We used following libraries**
       * intro.js 
       * slick-nav.js 
       * nice-select.js 
@@ -26,7 +26,7 @@ The IEEE web-o-mania competition code.
       And that's it, open index.html to run the website.
  * We have used only Bootstrap framework
 
-- **How our Website Satisfies the Theme (Furniture and Appliances)**
+**How our Website Satisfies the Theme (Furniture and Appliances)**
   We have madea modern responsive website that not only makes your shopping a pleasant feeling but also makes you fall in love with the website with how easy and fast it is.
 We have tried to cover all types of furnitures and appliances in our website and have given a detailed model of the prcing. Also, we have made a logo and given a company name to make it sound more like a brand.
 
