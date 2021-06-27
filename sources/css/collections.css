@@ -118,3 +118,24 @@ strong {
 .button a {
     margin-right: 10px;
 }
+
+#home_decor
+{
+	border-radius: 45%;
+}
+#home_decor img{
+	size: fit-content;
+	width: 100%;
+	height: auto;
+}
+@media (max-width: 990px) {
+	#home_decor img{
+		display: none;
+	}
+}
+#appliance-head{
+padding-top: 15vh;
+}
+span a{
+    color: #fcfade;
+}

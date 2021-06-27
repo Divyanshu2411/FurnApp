@@ -198,4 +198,38 @@
             $('#c').removeClass('active');
         }
     });
+
+    /* 6.  Adding Active class  */
+    $(window).on('scroll', function() {
+        var scroll = $(window).scrollTop();
+        console.log(scroll);
+
+        if (scroll <= 950) {
+            $('#C').addClass('active');
+        } else {
+            $('#C').removeClass('active');
+        }
+
+        if (950 < scroll && scroll <= 2900) {
+            $('#F').addClass('active');
+        } else {
+            $('#F').removeClass('active');
+        }
+
+        if ( 2900< scroll && scroll<= 4800) {
+            $('#A').addClass('active');
+        } else {
+            $('#A').removeClass('active');
+        }
+
+        
+        if ( scroll > 4800) {
+            $('#con').addClass('active');
+        } else {
+            $('#con').removeClass('active');
+        }
+
+
+       
+    });
 })(jQuery);
