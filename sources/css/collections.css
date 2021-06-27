@@ -1,102 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 * {
-    backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
 .hovercontainer1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 3rem;
-    padding: 4rem 4rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 3rem;
+	padding: 4rem 4rem;
 }
 
 .heading {
-    z-index: 100;
+	z-index: 100;
+	text-align: center;
 }
 
 .heading h1 {
-    z-index: 100;
+	z-index: 100;
 }
 
 .single-slider {
-    position: relative;
-    background: linear-gradient(90deg, #fcfade 40%, #ffffff5e 100%);
-    background-blend-mode: lighten;
-    background-position: right right;
-    background-size: cover;
-    background-repeat: no-repeat;
+	position: relative;
+	background: linear-gradient(90deg, #fcfade 40%, #ffffff5e 100%);
+	background-blend-mode: lighten;
+	background-position: right right;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .hovercontainer1 .card {
-    padding: 2rem;
-    position: relative;
-    overflow: hidden;
+	padding: 2rem;
+	position: relative;
+	overflow: hidden;
 }
 
 .hovercontainer1 .card:after {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .card-title {
-    font-family: 'Staatliches', cursive;
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    line-height: 40px;
-    color: white;
-    font-size: 30px;
-    mix-blend-mode: exclusion;
-    background-blend-mode: multiply;
+	font-family: 'Staatliches', cursive;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	line-height: 40px;
+	color: white;
+	font-size: 30px;
+	mix-blend-mode: exclusion;
+	background-blend-mode: multiply;
 }
 
 .card:hover .headText {
-    color: white;
-    mix-blend-mode: exclusion;
-    opacity: 1;
-    font-size: 39px;
-    /* text-shadow: 12px 12px #ff0000; */
+	color: white;
+	mix-blend-mode: exclusion;
+	opacity: 1;
+	font-size: 39px;
+	/* text-shadow: 12px 12px #ff0000; */
 }
 
 .headUnderline {
-    background-color: white;
-    width: 10px;
-    height: 50px;
-    position: absolute;
-    left: 10%;
-    top: 5%;
+	background-color: white;
+	width: 10px;
+	height: 50px;
+	position: absolute;
+	left: 10%;
+	top: 5%;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
-    .hovercontainer1 {
-        grid-template-columns: 1fr;
-    }
+	.hovercontainer1 {
+		grid-template-columns: 1fr;
+	}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
-    .hovercontainer1 {
-        grid-template-columns: 1fr 1fr;
-    }
+	.hovercontainer1 {
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 @media only screen and (min-width: 1000px) {
-    .hovercontainer1 {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+	.hovercontainer1 {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
 
 strong {
-    display: block;
+	display: block;
 }
 
 .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
 }
 
 .button a {
-    margin-right: 10px;
+	margin-right: 10px;
 }
