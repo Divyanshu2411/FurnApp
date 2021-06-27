@@ -26,7 +26,7 @@ The IEEE web-o-mania competition code.
       And that's it, open index.html to run the website.
  * We have used only Bootstrap framework
 
--**How our Website Satisfies the Theme (Furniture and Appliances)**
+- **How our Website Satisfies the Theme (Furniture and Appliances)**
   We have madea modern responsive website that not only makes your shopping a pleasant feeling but also makes you fall in love with the website with how easy and fast it is.
 We have tried to cover all types of furnitures and appliances in our website and have given a detailed model of the prcing. Also, we have made a logo and given a company name to make it sound more like a brand.
 
