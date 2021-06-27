@@ -1,6 +1,6 @@
 # FurnApp
 The IEEE web-o-mania competition code.
-<h1 align="center">Hi 👋, we are <DIV>, a team of developer from NSUT.</h1>
+<h1 align="center">Hi 👋, we are &ltDIV&gt, a team of developer from NSUT.</h1>
 <h3 align="center">A passionate frontend development team from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=divyanshu2411&label=Profile%20views&color=0e75b6&style=flat" alt="divyanshu2411" /> </p>
