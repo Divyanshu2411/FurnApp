@@ -1440,7 +1440,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .service-area .services-caption .service-icon::before {
-    background-image: url(../img/shape/dot-bg.png);
+    background-image: url(../img/shapes/dot-bg.png);
     content: '';
     width: 80px;
     height: 135px;
@@ -1664,7 +1664,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .pricing-card-area .single-card::before {
-    background-image: url(../img/shape/dot-bg.png);
+    background-image: url(../img/shapes/dot-bg.png);
     content: '';
     width: 171px;
     height: 134px;

@@ -24,6 +24,16 @@
 </head>
 
 <body>
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="sources/img/logo/logo.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
     <header>
         <div data-title="Wasn't that fun!!?" data-intro="This ends our tour! Happy Furnapping :)" data-step=10 style="width:1px;margin: 0 auto;"></div>
         <div class="header-area header-transparrent">
@@ -508,8 +518,7 @@
         var alanBtnInstance = alanBtn({
             key: "53bb17d8db9abd9df30ad95c1824e16d2e956eca572e1d8b807a3e2338fdd0dc/stage",
             onCommand: function(commandData) {
-                if (commandData.command === "go:back") {
-                }
+                if (commandData.command === "go:back") {}
             },
             rootEl: document.getElementById("alan-btn"),
         });
@@ -519,7 +528,14 @@
 
     <script src="./sources/js/jquery-1.12.4.min.js"></script>
     <script src="./sources/js/bootstrap.min.js"></script>
-    
+    <script src="./sources/js/slick.min.js"></script>
+    <script src="./sources/js/jquery.slicknav.min.js"></script>
+    <script src="./sources/js/jquery.sticky.js"></script>
+    <script src="./sources/js/main.js"></script>
+
+
+
+
 
     <!--Intro JS-->
     <script src="./sources/js/intro.js"></script>
