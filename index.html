@@ -45,6 +45,7 @@
             </div>
         </div>
     </header>
+    <div data-title="Hello There!" data-intro="Voice assistant just for You :)  " class="alan-btn"></div>
     <main>
         <div class="slider-area">
             <div class="slider-active">
@@ -75,8 +76,19 @@
             </div>
         </div>
     </main>
+    <script type="text/javascript" src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
     <script src="./sources/js/bootstrap.min.js"></script>
-
+    <script>
+        var alanBtnInstance = alanBtn({
+            key: "53bb17d8db9abd9df30ad95c1824e16d2e956eca572e1d8b807a3e2338fdd0dc/stage",
+            onCommand: function (commandData) {
+                if (commandData.command === "go:back") {
+                    //call client code that will react on the received command
+                }
+            },
+            rootEl: document.getElementById("alan-btn"),
+        });
+    </script>
 </body>
 
 </html>
