@@ -1,42 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="zxx">
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>FurnApp</title>
+    <title>Furniture And Appliances</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="sources/img/logo/logo.png" />
+
+    <!-- CSS here -->
     <link rel="stylesheet" href="sources/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="sources/css/style.css">
+    <link rel="stylesheet" href="sources/css/cards.css" />
+
+    <link rel="stylesheet" href="sources/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="sources/css/slick.css" />
+    <link rel="stylesheet" href="sources/css/style.css" />
+    <link rel="stylesheet" href="sources/css/introjs.css" />
+    <script src="https://use.fontawesome.com/b1831f2905.js"></script>
+    <script>
+        history.scrollRestoration = "manual"
+    </script>
 </head>
 
 <body>
     <header>
+        <div data-title="Wasn't that fun!!?" data-intro="This ends our tour! Happy Furnapping :)" data-step=10 style="width:1px;margin: 0 auto;"></div>
         <div class="header-area header-transparrent">
-            <div class="main-header">
+            <div id="nav" class="main-header header-sticky">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
                             <div class="logo">
-                                <a href="index.html"><img src="sources/images/logo/logo.png" alt="" /></a>
+                                <a href="index.html"><img src="sources/img/logo/navbar_logo.png" alt="" /></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 col-md-10">
-                            <!-- Main-menu -->
                             <div class="main-menu f-right d-none d-lg-block">
-                                <nav>
+                                <nav data-title="hello" data-intro="Welcome all the avalable options are right here! Let's go through a small tour to help you get used to this site">
                                     <ul id="navigation">
-                                        <li><a href="#homie"> Home</a></li>
-                                        <li><a href="#features">Feature</a></li>
-                                        <li><a href="#services">Services</a></li>
-                                        <li><a href="#pricing">Pricing</a></li>
-                                        <li><a href="#contact">Contacts</a></li>
+                                        <li id="h"><a href="#homie"> Home</a></li>
+                                        <li id="f"><a href="#features">Feature</a></li>
+                                        <li id="s"><a href="#services">Services</a></li>
+                                        <li id="p"><a href="#pricing">Pricing</a></li>
+                                        <li id="c"><a href="#contact">Contacts</a></li>
+                                        <li><a href="pages/ranges.html">Collection</a></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                        <!-- Mobile Menu -->
                         <div class="col-12">
                             <div class="mobile_menu d-block d-lg-none"></div>
                         </div>
@@ -45,30 +57,36 @@
             </div>
         </div>
     </header>
+
     <div data-title="Hello There!" data-intro="Voice assistant just for You :)  " class="alan-btn"></div>
+
     <main>
         <div class="slider-area">
             <div class="slider-active">
-                <div id="homie" class="single-slider slider-height slider-padding d-flex align-items-center">
-                    <div id="home" class="container">
+                <div id="homie" class="
+              single-slider
+              slider-height slider-padding
+              
+              d-flex
+              align-items-center
+            ">
+                    <div class="container">
                         <div class="row d-flex align-items-center">
                             <div class="col-lg-6 col-md-9">
-                                <div class="prime__caption">
-                                    <span>
-                                        Making Dreams Affordable
-                                    </span>
-                                    <h1>FurnApp</h1>
-                                    <h3>Make your dream house complete!!</h3>
-                                    <p>
-                                        Household Appliances and furniture for sale and rent at amazing prices because
-                                        we want to help your dream house come true
+                                <div class="hero__caption">
+                                    <span id="home" data-animation="fadeInUp" data-delay=".4s">Making Dreams Affordable</span>
+                                    <h1 data-animation="fadeInUp" data-delay=".6s">FurnApp</h1>
+                                    <h3 data-animation="fadeInUp" data-delay=".4s">Make your dream house complete!!
+                                    </h3>
+                                    <p data-animation="fadeInUp" data-delay=".8s">
+                                        Household Appliances and furniture for sale and rent at amazing prices because we want to help your dream house come true
                                     </p>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="hero__img d-none d-lg-block f-right">
-                                    <img src="sources/images/prime/prime_right.png"
-                                        class="rotate linear infinite rotate-hero" alt="">
+                                <div class="hero__img d-none d-lg-block f-right" data-animation="fadeInRight" data-delay="1s">
+                                    <img src="sources/img/gallery/slider1.1.png" class="slide-hero">
+                                    <img src="sources/img/prime/prime_right.png" class="rotate linear infinite rotate-hero" alt="">
                                 </div>
                             </div>
                         </div>
@@ -76,25 +94,440 @@
                 </div>
             </div>
         </div>
+        <section id="features" class="best-features-area section-padd4">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-xl-8 col-lg-10">
+                        <div class="row">
+                            <div class="col-lg-10 col-md-10">
+                                <div class="section-tittle">
+                                    <h2 data-title="Why Everyone Loves us" data-intro="See the features that makes FurnApp so popular">Some of the best features of FurnAPP!</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 zoom">
+                                <div class="single-features mb-70">
+                                    <div class="features-icon">
+                                        <span class="flaticon-support"></span>
+                                    </div>
+                                    <div class="features-caption">
+                                        <h3>Affordable</h3>
+                                        <p>
+                                            Get the best products to furnish your home at the rates that will blow your mind off.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 zoom">
+                                <div class="single-features mb-70">
+                                    <div class="features-icon">
+                                        <span class="flaticon-support"></span>
+                                    </div>
+                                    <div class="features-caption">
+                                        <h3>Top-Notch Quality</h3>
+                                        <p>
+                                            All the product that we have are tested on multiple critical parameters so as to deliver you only best of the best.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 zoom">
+                                <div class="single-features mb-70">
+                                    <div class="features-icon">
+                                        <span class="flaticon-support"></span>
+                                    </div>
+                                    <div class="features-caption">
+                                        <h3>Top-Brands with Best Designs</h3>
+                                        <p>
+                                            For those of you for whom brand matters, our products exhibit cutting edge designs from top brands.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 zoom">
+                                <div class="single-features mb-70">
+                                    <div class="features-icon">
+                                        <span class="flaticon-support"></span>
+                                    </div>
+                                    <div class="features-caption">
+                                        <h3>Customer Support</h3>
+                                        <p>
+                                            We believe our responsibility begins after we sell or rent the product, with one the best customer support services, our reviews speaks for us.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="features-shpae d-none d-lg-block">
+                <img src="sources/img/prime/prime_left.svg" alt="" />
+
+            </div>
+        </section>
+        <section class="service-area sky-blue section-padding2" id="services">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-tittle text-center">
+                            <h2>How Can We Help You<br />with FurnApp!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 zoom">
+                        <div class="services-caption text-center mb-30">
+                            <div class="service-icon">
+                                <span class="flaticon-businessman"></span>
+                            </div>
+                            <div class="service-cap">
+                                <h4>Easy Renting</h4>
+                                <p>
+                                    We provide flexible renting and buying plans with minimum paper work and no hassel.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 zoom">
+                        <div class="services-caption text-center mb-30">
+                            <div class="service-icon">
+                                <span class="flaticon-plane"></span>
+                            </div>
+                            <div class="service-cap">
+                                <h4>Customer Satisfaction</h4>
+                                <p>
+                                    We boast of having the best customer support team in this field.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 zoom">
+                        <div class="services-caption text-center mb-30">
+                            <div class="service-icon">
+                                <span class="flaticon-pay"></span>
+                            </div>
+                            <div class="service-cap">
+                                <h4>Various Payment Modes</h4>
+                                <p>
+                                    We provide our customers with various payment options (net banking, debit, credit, EMI).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <div class="furn-apps section-padding2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-8">
+                        <div class="single-cases-info mb-30">
+                            <h3 data-title="Product Gallery" data-intro="Click on the below button to see the whole range of products we offer">
+                                FurnApp<br /> Product Range
+                            </h3>
+                            <p>
+                                Browse through our large collection of furniture and find your best match.
+                            </p>
+                            <a href="pages/ranges.html"><button class="btn collections " onclick="">Collection</button></a>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-col-md-7" style="align-self: center">
+                        <div class="app-active" id="slide">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="./sources/img/gallery/sofa.jpg" alt="First slide">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Sofa Sets</h5>
+                                            <p>Elegance, comfort, versatility and quality are signature</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="./sources/img/gallery/bed.jpg" alt="Second slide">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Simplicity Is Key</h5>
+                                            <p>You're in the market for a new bed, don't settle for a simple one</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="./sources/img/gallery/coffee.jpg" alt="Third slide">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Key to the Living room</h5>
+                                            <p>low table designed to be placed in a sitting area for convenient support of beverages, remote controls, magazines</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <section class="best-pricing pricing-padding" id="pricing" data-background="sources/img/img/hero/rentbg.jpg">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="section-tittle section-tittle2 text-center">
+                            <h2 data-title="Prices and plans" data-intro="Prices and plans that suit every pocket">Choose Your Very Best Pricing Plan.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="pricing-card-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 zoom">
+                        <div class="single-card text-center mb-30">
+                            <div class="card-top">
+                                <span>Weekly</span>
+                                <h4>1.00% <span> of MRP /week </span></h4>
+                            </div>
+                            <div class="card-bottom">
+                                <ul>
+                                    <li>2 Free Servicings</li>
+                                    <li>24/7 customer support</li>
+                                </ul>
+                                <a href="pages/404.html" class="btn card-btn1">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 zoom">
+                        <div class="single-card text-center mb-30">
+                            <div class="card-top">
+                                <span>Monthly</span>
+                                <h4>1.50% <span> of MRP/ month</span></h4>
+                            </div>
+                            <div class="card-bottom">
+                                <ul>
+                                    <li>10 Free Servicing</li>
+                                    <li>24/7 customer support</li>
+                                </ul>
+                                <a href="pages/404.html" class="btn card-btn1">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 zoom">
+                        <div class="single-card text-center mb-30">
+                            <div class="card-top">
+                                <span>Yearly</span>
+                                <h4>10.0% <span> of MRP/ year</span></h4>
+                            </div>
+                            <div class="card-bottom">
+                                <ul>
+                                    <li>150 Free Servicings</li>
+                                    <li>24/7 customer support</li>
+                                </ul>
+                                <a href="pages/404.html" class="btn card-btn1">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="our-customer section-padd-top30">
+            <div class="container-fluid">
+                <div class="our-customer-wrapper">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-xl-8">
+                            <div class="section-tittle text-center">
+                                <h2 data-title="Customer Reviews" data-intro="Reviews from the genuine customers about the awesomeness of furnApp">
+                                    What Our Customers<br /> Have to Say
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="customar-active dot-style d-flex dot-style">
+                                <div class="single-customer mb-100 zoom">
+                                    <div class="what-img">
+                                        <img src="sources/img/team/download.png" alt="" />
+                                    </div>
+                                    <div class="what-cap">
+                                        <h4 class="text-center">
+                                            Faster and at lower Price
+                                        </h4>
+                                        <p class="text-center">
+                                            “So far my shopping experience has been easy. I found what I was looking for quickly with a few key words. I was able to comparison shop, and the price was lower than another site for a similar item (different color).”
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="single-customer mb-100 zoom">
+                                    <div class="what-img">
+                                        <img src="sources/img/team/ishkaran.jpg" alt="" />
+                                    </div>
+                                    <div class="what-cap">
+                                        <h4 class="text-center">
+                                            No Complaints for a Decade
+                                        </h4>
+                                        <p class="text-center">
+                                            We have been purchasing furniture from FurnApp since the last 10 years. We appreciate their prompt service and so far we have faced no complaints with their furniture.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="single-customer mb-100 zoom">
+                                    <div class="what-img">
+                                        <img src="sources/img/team/varsneya.jpeg" alt="" />
+                                    </div>
+                                    <div class="what-cap">
+                                        <h4 class="text-center">
+                                            Must for anyone who Likes Quality
+                                        </h4>
+                                        <p class="text-center">
+                                            We purchased so many products from durian and we would recommend FurnApp Furniture to everyone who needs quality and decent looking furniture.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="single-customer mb-100 zoom">
+                                    <div class="what-img">
+                                        <img src="sources/img/team/divyanshu.jpg" alt="" />
+                                    </div>
+                                    <divclass="what-cap">
+                                        <h4 class="text-center">
+                                            Pleased with Quality
+                                        </h4>
+                                        <p class="text-center">
+                                            “This is the 4th appliance package we have ordered. We have been pleased with them all.”
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="contact" class="available-app-area">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="app-caption">
+                            <div class="section-tittle section-tittle3 text-center">
+                                <h2 data-title="Reach out to us" data-intro="Last but definitely not the least, we will love to hear from you! So feel free to connect with us
+                for complains,parises, suggestions or anything. (and no, we can't help about you being a single :P)">Connect With Affordable Comfort</h2>
+                            </div>
+
+
+                            <div class="col-xl-7 col-lg-7 galcont">
+                                <div class="gallery">
+                                    <div class="container">
+                                        <div class="inner-twitter">
+                                            <span><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                                            <h1>Twitter</h1>
+                                            <p>Don't feel shy about tweeting how good we are :P</p>
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="inner-instagram">
+                                            <span><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+                                            <h1>Instagram</h1>
+                                            <p>Drown in the aesthetic beauty. You can even tag us with FurnApp product pics to get featured</p>
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="inner-email">
+                                            <span><a href="pages/404.html" target="_blank"><i class="fa fa-envelope"></i></a></span>
+                                            <h1>Email Us</h1>
+                                            <p>And ofcouse we will get back to you soon, duh!</p>
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="inner-github">
+                                            <span><a href="https://github.com/Divyanshu2411/FurnApp" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></span>
+                                            <h1>Github</h1>
+                                            <p>Well, we don't know why we included it, but duh, click to go to the source code</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-4 col-sm-12">
+                        <p class="counter">
+                            <span class="padding-left" id="count1"></span>
+                            <span> k Products Rented</span>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <p class="counter">
+                            <span class="padding-left" id="count2"></span>
+                            <span> k Visitors</span>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <p class="counter">
+                            <span class="padding-left" id="count3"></span>
+                            <span> k Products Sold</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        </div>
+
+
     </main>
+
     <script type="text/javascript" src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
-    <script src="sources/js/bootstrap.min.js"></script>
     <script>
         var alanBtnInstance = alanBtn({
             key: "53bb17d8db9abd9df30ad95c1824e16d2e956eca572e1d8b807a3e2338fdd0dc/stage",
-            onCommand: function (commandData) {
+            onCommand: function(commandData) {
                 if (commandData.command === "go:back") {
-                    //call client code that will react on the received command
                 }
             },
             rootEl: document.getElementById("alan-btn"),
         });
     </script>
-    <script src="sources/js/jquery.sticky.js"></script>
-    <script src="sources/js/jquery-1.12.4.min.js"></script>
-    <script src="sources/js/jquery.slicknav.min.js"></script>
-    <script src="sources/js/slick.min.js"></script>
-    <script src="sources/js/jquery.scrollUp.min.js"></script>
+
+
+
+    <script src="./sources/js/jquery-1.12.4.min.js"></script>
+    <script src="./sources/js/bootstrap.min.js"></script>
+    
+
+    <!--Intro JS-->
+    <script src="./sources/js/intro.js"></script>
+    <script>
+        setTimeout(function() {
+            introJs().start();
+        }, 1500);
+    </script>
 </body>
 
 </html>

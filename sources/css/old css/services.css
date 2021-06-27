@@ -1,0 +1,210 @@
+.service-area .services-caption {
+	background: #79432842;
+	padding: 84px 45px 56px;
+	border: 1px solid transparent;
+	border-radius: 7px;
+	transition: 0.5s;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.service-area .services-caption {
+		padding: 84px 25px 56px;
+	}
+}
+.service-area .services-caption .service-icon {
+	display: inline-block;
+	position: relative;
+}
+.service-area .services-caption .service-icon::before {
+	background-image: url(../images/shapes/dot-bg.png);
+	content: "";
+	width: 80px;
+	height: 135px;
+	position: absolute;
+	right: -29px;
+	top: -35px;
+	z-index: 0;
+	transition: 0.5s;
+}
+.service-area .services-caption .service-icon span {
+	position: relative;
+	color: #fff;
+	font-size: 40px;
+	height: 105px;
+	width: 105px;
+	display: block;
+	line-height: 105px;
+	border-radius: 50%;
+	text-align: center;
+	background: #bb9c36;
+	margin-bottom: 42px;
+	transition: 0.5s;
+}
+.service-area .services-caption .service-cap h4 a {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 27px;
+	display: inline-block;
+}
+.services-caption:hover {
+	border: 1px solid #b3f4d2;
+}
+.services-caption:hover .service-icon::before {
+	right: -32px;
+}
+.services-caption:hover .service-icon span {
+	background: #b3f4d2;
+	color: #51423b;
+	font-weight: 600;
+}
+.services-caption.active {
+	border: 1px solid #b8a2ff;
+}
+.services-caption.active .service-icon::before {
+	right: -32px;
+}
+.services-caption.active .service-icon span {
+	background: #835ef8;
+}
+.section-padding2 {
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+	.section-padding2 {
+		padding-top: 200px;
+		padding-bottom: 200px;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.section-padding2 {
+		padding-top: 200px;
+		padding-bottom: 200px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.section-padding2 {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.section-padding2 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+@media (max-width: 767px) {
+	.section-padding2 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+.sky-blue {
+	background: #f8f5b875;
+}
+.section-tittle h2 {
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 90px;
+	z-index: 8;
+}
+@media (max-width: 767px) {
+	.section-tittle h2 {
+		font-size: 30px;
+		line-height: 1.3;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.section-tittle h2 {
+		font-size: 40px;
+	}
+}
+.zoom {
+	transition: transform 0.2s;
+	/* Animation */
+}
+
+.zoom:hover {
+	transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.furn-apps {
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+}
+.furn-apps .single-cases-info {
+	position: relative;
+	left: 58%;
+	margin-top: 72px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+	.furn-apps .single-cases-info {
+		margin-top: 72px;
+		left: 33%;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.furn-apps .single-cases-info {
+		left: 38%;
+		margin-top: 0px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.furn-apps .single-cases-info {
+		left: 17%;
+		margin-top: 40px;
+	}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.furn-apps .single-cases-info {
+		left: 1%;
+		margin-top: 20px;
+	}
+}
+@media (max-width: 767px) {
+	.furn-apps .single-cases-info {
+		left: 1%;
+		margin-top: 10px;
+	}
+}
+.furn-apps .single-cases-info h3 {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.3;
+	margin-bottom: 20px;
+	padding-right: 30px;
+}
+@media (max-width: 767px) {
+	.furn-apps .single-cases-info h3 {
+		font-size: 30px;
+	}
+}
+.furn-apps .single-cases-info p {
+	margin-bottom: 50px;
+	padding-right: 224px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+	.furn-apps .single-cases-info p {
+		padding-right: 0px;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.furn-apps .single-cases-info p {
+		margin-bottom: 20px;
+		padding-right: 26px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.furn-apps .single-cases-info p {
+		margin-bottom: 20px;
+		padding-right: 26px;
+	}
+}
+@media (max-width: 767px) {
+	.furn-apps .single-cases-info p {
+		margin-bottom: 20px;
+		padding-right: 0px;
+	}
+}
