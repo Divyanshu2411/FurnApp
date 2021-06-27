@@ -6,18 +6,6 @@ The IEEE web-o-mania competition code.
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=divyanshu2411&label=Profile%20views&color=0e75b6&style=flat" alt="divyanshu2411" /> </p>
 
 - 🔭 We are currently working on [FurnApp](https://github.com/Divyanshu2411/FurnApp)
-
-**We used following libraries**
-      * intro.js 
-      * slick-nav.js 
-      * nice-select.js 
-      * slick
-      * bootstrap
-      * bootstrap material design
-      * flat-icon
-      * animate.css
-      * font-awesome
-      * we have taken most of the images from google images and rendered them using photoshop for the need of our website
  
  - 🌱 To run this project on local machine
       ```
@@ -25,6 +13,18 @@ The IEEE web-o-mania competition code.
       ```
       And that's it, open index.html to run the website.
  * We have used only Bootstrap framework
+ 
+**We used following libraries**
+* intro.js 
+* slick-nav.js 
+* nice-select.js 
+* slick
+* bootstrap
+* bootstrap material design
+* flat-icon
+* animate.css
+* font-awesome
+* we have taken most of the images from google images and rendered them using photoshop for the need of our website
 
 **How our Website Satisfies the Theme (Furniture and Appliances)**
   We have madea modern responsive website that not only makes your shopping a pleasant feeling but also makes you fall in love with the website with how easy and fast it is.
