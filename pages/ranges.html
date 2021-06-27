@@ -18,6 +18,7 @@
     <script src="https://use.fontawesome.com/b1831f2905.js"></script>
     <!-- for cards -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 </head>
 
@@ -36,7 +37,7 @@
                             </div>
                             <div class="col-xl-10 col-lg-10 col-md-10">
                                 <div class="main-menu f-right d-none d-lg-block">
-                                    <nav data-title="hello" data-intro="Welcome all the avalable options are right here!">
+                                    <nav data-title="hello" data-intro="Welcome all the available options are right here!">
                                         <ul id="navigation">
                                             <li><a href="../index.html"> Home</a></li>
                                             <li class="active"><a href="#furniture">Furniture</a></li>
@@ -64,7 +65,7 @@
                 </div>
                 <div class="hovercontainer1">
                     <div class="card">
-                        <img src="../sources/images/card-images/office_sofa.jpg" alt="">
+                        <img src="../sources/img/card-images/office_sofa.jpg" alt="">
                         <div class="card-body">
                             <hr class="headUnderline">
                             <h5 class="card-title">Sofa Set</h5>
@@ -83,7 +84,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="../sources/images/card-images/office_sofa.jpg" alt="">
+                        <img src="../sources/img/card-images/office_sofa.jpg" alt="">
                         <div class="card-body">
                             <hr class="headUnderline">
                             <h5 class="card-title">Sofa Set</h5>
@@ -102,7 +103,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="../sources/images/card-images/office_sofa.jpg" alt="">
+                        <img src="../sources/img/card-images/office_sofa.jpg" alt="">
                         <div class="card-body">
                             <hr class="headUnderline">
                             <h5 class="card-title">Sofa Set</h5>
@@ -121,7 +122,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="../sources/images/card-images/office_sofa.jpg" alt="">
+                        <img src="../sources/img/card-images/office_sofa.jpg" alt="">
                         <div class="card-body">
                             <hr class="headUnderline">
                             <h5 class="card-title">Sofa Set</h5>
@@ -140,7 +141,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="../sources/images/card-images/office_sofa.jpg" alt="">
+                        <img src="../sources/img/card-images/office_sofa.jpg" alt="">
                         <div class="card-body">
                             <hr class="headUnderline">
                             <h5 class="card-title">Sofa Set</h5>
@@ -164,7 +165,7 @@
                 </div>
                 <div class="hovercontainer1" id="appliance">
                     <div class="card">
-                        <img src="../sources/images/card-images/office_sofa.jpg" alt="">
+                        <img src="../sources/img/card-images/office_sofa.jpg" alt="">
                         <div class="card-body">
                             <hr class="headUnderline">
                             <h5 class="card-title">Sofa Set</h5>
@@ -183,7 +184,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="../sources/images/card-images/office_sofa.jpg" alt="">
+                        <img src="../sources/img/card-images/office_sofa.jpg" alt="">
                         <div class="card-body">
                             <hr class="headUnderline">
                             <h5 class="card-title">Sofa Set</h5>
@@ -202,7 +203,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="../sources/images/card-images/office_sofa.jpg" alt="">
+                        <img src="../sources/img/card-images/office_sofa.jpg" alt="">
                         <div class="card-body">
                             <hr class="headUnderline">
                             <h5 class="card-title">Sofa Set</h5>
@@ -221,7 +222,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="../sources/images/card-images/office_sofa.jpg" alt="">
+                        <img src="../sources/img/card-images/couch.glb" alt="">
                         <div class="card-body">
                             <hr class="headUnderline">
                             <h5 class="card-title">Sofa Set</h5>
@@ -240,7 +241,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="../sources/images/card-images/office_sofa.jpg" alt="">
+                        <model-viewer src="../sources/img/card-images/couch.glb" alt="A 3D model of an astronaut" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls></model-viewer>
                         <div class="card-body">
                             <hr class="headUnderline">
                             <h5 class="card-title">Sofa Set</h5>
@@ -270,8 +271,7 @@
             var alanBtnInstance = alanBtn({
                 key: "53bb17d8db9abd9df30ad95c1824e16d2e956eca572e1d8b807a3e2338fdd0dc/stage",
                 onCommand: function(commandData) {
-                    if (commandData.command === "go:back") {
-                    }
+                    if (commandData.command === "go:back") {}
                 },
                 rootEl: document.getElementById("alan-btn"),
             });
